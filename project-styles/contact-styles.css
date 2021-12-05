@@ -1,0 +1,176 @@
+/* stripping styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #345231;
+}
+
+body {
+    background: #F6F6F6;
+    font-family: 'montserrat'
+}
+
+
+h1 {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    padding-top: 19px;
+    font-size: 80px;
+    letter-spacing: 1px;
+    line-height: 92px;
+    color: #F6F6F6;
+    text-transform: uppercase;
+    font-family: 'Albril Fatface';
+}
+
+h2 {
+    font-family: 'Albril Fatface';
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+a {
+    text-transform: uppercase;
+    padding: 0px 35px 0px 35px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #F6F6F6;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 15px;
+}
+
+nav ul li:last-child a {
+    color:#E4A436;
+}
+
+.contact-me {
+    background-image: url(../assets/contact-image-1.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+
+.contact-title {
+    height: 100%;
+}
+
+/* socials tab */
+.all-tabs {
+    display: flex;
+}
+
+.socials-tab {
+    height: 250px;
+    width: 475px;
+    background: white;
+    padding: 35px 30px 35px 30px;
+    margin-top: 75px;
+}
+
+.socials-tab ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    color: #345231;
+    font-size: 22px;
+    height: 35px;
+    max-height: 35px;
+}
+
+.socials-tab li {
+    max-width: 55px;
+}
+
+/* form styles */
+.form-tab {
+    margin: 75px 0px 0px 35px;
+    width: 100%;
+}
+
+fieldset {
+    height: 40vh;
+    border: 0;
+}
+
+.user-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=userName],
+input[type=email] {
+    border: none;
+    width: calc(100%/2 - 25px);
+    height: 45px;
+    padding: 5px 0px 5px 15px
+}
+
+textarea {
+    border: none;
+    margin-top: 20px;
+    resize:none;
+    padding: 25px 0px 5px 25px;
+    font-size: 18px;
+    font-family: 'montserrat'
+}
+
+.text-area {
+    border: none;
+    width: 100%;
+}
+
+button {
+    background-color: #E4A436;
+    border: none;
+    font-family: 'Albril Fatface';
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px 0px 10px 0px;
+}
+
+.email-address {
+    font-weight: 700;
+    padding: 0px 0px 10px 0px;
+}
+
+button {
+    width: 100%;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    margin-top: 65px;
+}
