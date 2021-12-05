@@ -1,0 +1,26 @@
+/* socials tab */
+.all-tabs {
+    display: flex;
+}
+
+.socials-tab {
+    height: 250px;
+    width: 475px;
+    background: white;
+    padding: 35px 30px 35px 30px;
+    margin-top: 75px;
+}
+
+.socials-tab ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    color: #345231;
+    font-size: 22px;
+    height: 35px;
+    max-height: 35px;
+}
+
+.socials-tab li {
+    max-width: 55px;
+}
