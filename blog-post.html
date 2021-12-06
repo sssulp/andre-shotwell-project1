@@ -38,36 +38,10 @@
             <h1>Blog & News</h1>
         </div>
     </section>
-
-    <!-- about and recent -->
-    <section class="about-blog" id="about">
-        <div class="wrapper">
-            <div class="all-about">
-
-                <!-- about willow -->
-                <aside class="about-willow">
-                    <img src="assets/blog-image-2.jpg" alt="dramatic image of author">
-                    <h4>About Willow</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi cumque debitis quos assumenda.<a href="#">Find out more.</a></p>
-                </aside>
-
-                <aside class="recent-posts">
-                    <h4>Recent Posts</h4>
-                    <ul class="recents">
-                        <li><a href="#">Donec facilisis tortor ut</a></li>
-                        <li><a href="#">Augue lacinia at viverra</a></li>
-                        <li><a href="#">Semper sed sapien metus</a></li>
-                        <li><a href="#">Scelerisque nec pharetra id</a></li>
-                    </ul>
-                </aside>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- blog post -->
-    <section class="blog-content">
-        <div class="wrapper">
+    
+    <!-- blog post & comments -->
+    <div class="wrapper">
+        <section id="blog-content">
             <div class="blog-post">
                 <h3>My Favourite Travel Destinations</h3>
                 <p>Monday October 8th, 2018 by Willow</p>
@@ -92,24 +66,45 @@
                 </div>
             </div>
 
-            <!-- form tab -->
-            <div class="form-tab">
-                <form action="">
-                    <fieldset>
-                        <div class="user-input">
-                            <input type="userName" placeholder="Name">
-                            <input type="email" placeholder="Email Address">
-                        </div>
-                        <div class="text-area">
-                            <textarea name="user_message" id="message" cols="77" rows="13" placeholder="Comment"></textarea>
-                        </div>
-                    </fieldset>
-                    <button type="submit">Post Comment</button>
-                </form>
-            </div>
-        </div>
-    </section>
+                <!-- form tab -->
+                <!-- <div class="form-tab">
+                    <form action="">
+                        <fieldset>
+                            <div class="user-input">
+                                <input type="userName" placeholder="Name">
+                                <input type="email" placeholder="Email Address">
+                            </div>
+                            <div class="text-area">
+                                <textarea name="user_message" id="message" cols="77" rows="13" placeholder="Comment"></textarea>
+                            </div>
+                        </fieldset>
+                        <button type="submit">Post Comment</button>
+                    </form>
+                </div> -->
+                <!-- end of forms -->
 
+            </div> <!-- end of .blog-post -->
+        </section>
+    </div>
+
+
+    <!-- about and recent -->
+    <div class="wrapper">
+        <aside class="about-willow">
+            <img src="assets/blog-image-2.jpg" alt="dramatic image of author">
+            <h4>About Willow</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi cumque debitis quos assumenda.<a href="#">Find out more.</a></p>
+
+            <h4>Recent Posts</h4>
+            <ul class="recents">
+                <li><a href="#">Donec facilisis tortor ut</a></li>
+                <li><a href="#">Augue lacinia at viverra</a></li>
+                <li><a href="#">Semper sed sapien metus</a></li>
+                <li><a href="#">Scelerisque nec pharetra id</a></li>
+            </ul>
+        </aside>
+    </div>
+    
     <!-- footer -->
     <footer>
         <p>Copyright &copy; 2021 Juno College</p>
