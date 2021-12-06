@@ -161,16 +161,88 @@ h1 {
 
 h2 {
   font-family: "Albril Fatface";
-  font-size: 32px;
+  font-size: 42px;
   text-transform: uppercase;
   text-align: center;
   color: white;
   padding: 0px 10px 0px 10px;
 }
 
+h3 {
+  font-family: "Albril Fatface";
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-family: "Albril Fatface";
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
 p {
   font-size: 20px;
   line-height: 32px;
+}
+
+.about-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-willow {
+  background-color: white;
+  padding: 30px;
+  margin-top: 75px;
+}
+
+.about-willow img {
+  width: 100%;
+}
+
+.about-willow a {
+  font-size: 18px;
+  text-transform: none;
+  font-weight: 700;
+  color: #345231;
+}
+
+.recent-posts {
+  background-color: white;
+  padding: 10px 30px 30px 30px;
+  margin-top: 30px;
+}
+
+.recent-posts li {
+  margin-left: 25px;
+}
+
+.recents a {
+  text-transform: none;
+  color: black;
+  margin: 0;
+  padding-left: 10px;
+}
+
+aside {
+  width: 27.5%;
+}
+
+aside h4 {
+  margin: 15px 0px 15px 0px;
+}
+
+aside a {
+  font-weight: 400;
+}
+
+.blog-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .contact-me {
@@ -184,6 +256,27 @@ p {
 }
 
 .contact-title h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+  padding-top: 19px;
+}
+
+.blog-splash {
+  background-image: url(../assets/blog-image-1.jpg);
+  background-size: cover;
+  height: 50vh;
+}
+
+.blog-title {
+  height: 100%;
+}
+
+.blog-title h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

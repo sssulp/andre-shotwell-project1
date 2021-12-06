@@ -1,0 +1,49 @@
+.about-blog {
+    display: flex;
+}
+
+.about-willow {
+    background-color: white;
+    padding: 30px;
+    margin-top: 75px;
+}
+
+.about-willow img {
+    width: 100%;
+}
+
+.about-willow a {
+    font-size: 18px;
+    text-transform: none;
+    font-weight: 700;
+    color: #345231;
+}
+
+.recent-posts {
+    background-color: white;
+    padding: 10px 30px 30px 30px;
+    margin-top: 30px;
+}
+
+.recent-posts li {
+    margin-left: 25px;
+}
+
+.recents a {
+    text-transform: none;
+    color: black;
+    margin: 0;
+    padding-left: 10px;
+}
+
+aside {
+    width: 27.5%;
+}
+
+aside h4 {
+    margin: 15px 0px 15px 0px;
+}
+
+aside a {
+    font-weight: 400;
+}

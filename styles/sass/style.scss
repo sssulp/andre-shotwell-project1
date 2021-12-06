@@ -3,6 +3,8 @@
 @import "partials/social-tab";
 @import "partials/forms.scss";
 @import "partials/typefont.scss";
+@import "partials/blog-about";
+@import "partials/blog-content";
 
 
 // CONTACT ME HTML
@@ -24,3 +26,19 @@
 }
 
 // BLOG POST HTML
+.blog-splash {
+    background-image: url(../assets/blog-image-1.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+
+.blog-title {
+    height: 100%;
+}
+
+.blog-title h1 {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    padding-top: 19px;
+}
