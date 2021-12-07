@@ -11,10 +11,6 @@ aside {
     padding: 30px;
 }
 
-a {
-    font-weight: 400;
-}
-
 // about aside
 .all-about {
     display: flex;
@@ -36,6 +32,7 @@ a {
 .about-willow a {
     color: #345231;
     text-transform: none;
+    text-decoration: none;
     margin: 0;
     font-weight: 700;
 }
@@ -52,8 +49,10 @@ a {
 }
 
 .recents a {
-    text-transform: none;
     color: black;
+    text-transform: none;
+    text-decoration: none;
     margin: 0;
+    font-weight: 400;
     padding-left: 10px;
 }

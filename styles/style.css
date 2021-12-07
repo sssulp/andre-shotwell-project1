@@ -1,6 +1,6 @@
-a {
+nav a {
   text-transform: uppercase;
-  padding: 5px 35px 5px 35px;
+  padding: 27px 35px 27px 35px;
   text-decoration: none;
   cursor: pointer;
   color: #F6F6F6;
@@ -69,6 +69,9 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   text-decoration: none;
   list-style-type: none;
   color: #345231;
@@ -79,6 +82,12 @@ footer {
 
 .socials-tab li {
   max-width: 55px;
+}
+
+.socials-tab a {
+  color: #345231;
+  font-weight: 400;
+  padding: 0px 10px 0px 10px;
 }
 
 /* form styles */
@@ -195,10 +204,6 @@ aside {
   padding: 30px;
 }
 
-a {
-  font-weight: 400;
-}
-
 .all-about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -224,6 +229,7 @@ a {
 .about-willow a {
   color: #345231;
   text-transform: none;
+  text-decoration: none;
   margin: 0;
   font-weight: 700;
 }
@@ -239,9 +245,11 @@ a {
 }
 
 .recents a {
-  text-transform: none;
   color: black;
+  text-transform: none;
+  text-decoration: none;
   margin: 0;
+  font-weight: 400;
   padding-left: 10px;
 }
 
@@ -307,7 +315,8 @@ form {
 
 a:hover {
   color: #E4A436;
-  background-color: #4a7446;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 button:hover {
