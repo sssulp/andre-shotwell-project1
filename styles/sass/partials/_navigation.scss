@@ -1,6 +1,6 @@
 a {
     text-transform: uppercase;
-    padding: 0px 35px 0px 35px;
+    padding: 5px 35px 5px 35px;
     text-decoration: none;
     cursor: pointer;
     color: #F6F6F6;
@@ -13,8 +13,4 @@ nav ul {
     align-items: center;
     list-style-type: none;
     padding: 15px;
-}
-
-nav ul li:last-child a {
-    color:#E4A436;
 }

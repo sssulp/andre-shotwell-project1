@@ -1,10 +1,26 @@
+.main-content {
+    display: flex;
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
 .blog-post {
     background-color: white;
     border-bottom: 5px solid #345231;
     padding: 25px;
     margin-top: 75px;
+    max-width: 1200px;
 }
 
+.post-date {
+    margin-bottom: 10px;
+}
+
+// comment styles
 .blog-comments {
     margin-top: 30px;
 }
@@ -12,11 +28,23 @@
 .first-comment {
     background-color: white;
     padding: 25px;
-}
+    margin-top: 35px;
+}   
 
 .second-comment {
     background-color: white;
     padding: 25px;
     margin-top: 30px;
     border-bottom: 5px solid #345231;
+}
+
+// form
+.form-blog {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+form {
+    width: 100%;
 }

@@ -1,11 +1,32 @@
-.about-blog {
-    max-width: 50px;
+// general styles
+h3 {
+    margin-bottom: 15px;
+}
+
+h4 {
+    margin: 15px 0px 15px 0px;
+}
+
+aside {
+    padding: 30px;
+}
+
+a {
+    font-weight: 400;
+}
+
+// about aside
+.all-about {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    margin-right: 25px;
 }
 
 .about-willow {
-    background-color: white;
-    padding: 30px;
+    height: 610px;
     margin-top: 75px;
+    background-color: white;
 }
 
 .about-willow img {
@@ -13,16 +34,17 @@
 }
 
 .about-willow a {
-    font-size: 18px;
-    text-transform: none;
-    font-weight: 700;
     color: #345231;
+    text-transform: none;
+    margin: 0;
+    font-weight: 700;
 }
 
+// recent posts aside
 .recent-posts {
-    background-color: white;
-    padding: 10px 30px 30px 30px;
     margin-top: 30px;
+    background-color: white;
+    padding-top: 10px;
 }
 
 .recent-posts li {
@@ -34,16 +56,4 @@
     color: black;
     margin: 0;
     padding-left: 10px;
-}
-
-aside {
-    width: 27.5%;
-}
-
-aside h4 {
-    margin: 15px 0px 15px 0px;
-}
-
-aside a {
-    font-weight: 400;
 }

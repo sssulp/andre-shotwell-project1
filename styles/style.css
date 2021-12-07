@@ -1,6 +1,6 @@
 a {
   text-transform: uppercase;
-  padding: 0px 35px 0px 35px;
+  padding: 5px 35px 5px 35px;
   text-decoration: none;
   cursor: pointer;
   color: #F6F6F6;
@@ -19,10 +19,6 @@ nav ul {
           align-items: center;
   list-style-type: none;
   padding: 15px;
-}
-
-nav ul li:last-child a {
-  color: #E4A436;
 }
 
 * {
@@ -187,14 +183,38 @@ p {
   line-height: 32px;
 }
 
-.about-blog {
-  max-width: 50px;
+h3 {
+  margin-bottom: 15px;
+}
+
+h4 {
+  margin: 15px 0px 15px 0px;
+}
+
+aside {
+  padding: 30px;
+}
+
+a {
+  font-weight: 400;
+}
+
+.all-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 31%;
+  margin-right: 25px;
 }
 
 .about-willow {
-  background-color: white;
-  padding: 30px;
+  height: 610px;
   margin-top: 75px;
+  background-color: white;
 }
 
 .about-willow img {
@@ -202,16 +222,16 @@ p {
 }
 
 .about-willow a {
-  font-size: 18px;
-  text-transform: none;
-  font-weight: 700;
   color: #345231;
+  text-transform: none;
+  margin: 0;
+  font-weight: 700;
 }
 
 .recent-posts {
-  background-color: white;
-  padding: 10px 30px 30px 30px;
   margin-top: 30px;
+  background-color: white;
+  padding-top: 10px;
 }
 
 .recent-posts li {
@@ -225,16 +245,21 @@ p {
   padding-left: 10px;
 }
 
-aside {
-  width: 27.5%;
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-aside h4 {
-  margin: 15px 0px 15px 0px;
-}
-
-aside a {
-  font-weight: 400;
+.blog-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 65%;
 }
 
 .blog-post {
@@ -242,6 +267,11 @@ aside a {
   border-bottom: 5px solid #345231;
   padding: 25px;
   margin-top: 75px;
+  max-width: 1200px;
+}
+
+.post-date {
+  margin-bottom: 10px;
 }
 
 .blog-comments {
@@ -251,6 +281,7 @@ aside a {
 .first-comment {
   background-color: white;
   padding: 25px;
+  margin-top: 35px;
 }
 
 .second-comment {
@@ -258,6 +289,29 @@ aside a {
   padding: 25px;
   margin-top: 30px;
   border-bottom: 5px solid #345231;
+}
+
+.form-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 30px;
+}
+
+form {
+  width: 100%;
+}
+
+a:hover {
+  color: #E4A436;
+  background-color: #4a7446;
+}
+
+button:hover {
+  background-color: #ebb456;
 }
 
 .contact-me {
