@@ -1,0 +1,113 @@
+.home-splash {
+    height: 75vh;
+    background-color: #345231;
+}
+
+.home-container {
+    display: flex;
+}
+
+.author-photo {
+    box-shadow: 20px 20px white;
+    width: 40%;
+    position: relative;
+    left: 340px;
+    top: 125px;
+}
+
+.circle-text {
+    position: absolute;
+}
+
+// about section
+.who-splash {
+    height: 400px;
+    padding-top: 70px;
+}
+
+.who-container {
+    text-align: center;
+}
+
+.who-container h2 {
+    color: black;
+    padding: 20px 0px 20px 0px;
+}
+
+// personal splash
+.first-row {
+    display: flex;
+}
+
+.personal-splash {
+    max-height: 100vh;
+    background-color: white;
+}
+
+.left-image {
+    margin: 0 auto;
+    max-height: 400px;
+    position: relative;
+    box-shadow: -25px 20px #446b40;
+    bottom: 50px;
+    width: 100%;
+}
+
+.favourite-things {
+    align-items: center;
+    margin: 0 auto;
+    padding: 45px 0px 25px 25px;
+}
+
+.second-row {
+    display: flex;
+}
+
+.bucket-list {
+    text-align: right;
+    padding: 45px 25px 25px 0px;
+}
+
+.right-image {
+    margin: 0 auto;
+    max-height: 400px;
+    position: relative;
+    box-shadow: 25px 25px #273d24;
+    top: 25px;
+}
+
+// journey
+.my-journey {
+    max-height: 600px;
+    padding: 65px 35px 35px 35px;
+}
+
+.portrait-wrapper img {
+    box-shadow: 25px 25px #446b40;
+}
+
+.journey-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 35px;
+}
+
+.journey-container h2 {
+    color: black;
+    padding: 20px 0px 20px 0px;
+}
+
+.journey-content {
+    margin-left: 100px;
+}
+
+.journey-content h2 {
+    text-align: left;
+}
+
+// flower field
+.image-break {
+    width: 100%;
+    max-height: 600px
+}

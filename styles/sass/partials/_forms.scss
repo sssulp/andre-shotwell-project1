@@ -36,6 +36,7 @@ textarea {
     width: 100%;
 }
 
+// BUTTON STYLES
 button {
     background-color: #E4A436;
     border: none;
@@ -47,14 +48,25 @@ button {
     letter-spacing: 1px;
     margin-top: 30px;
     cursor: pointer;
-    padding: 10px 0px 10px 0px;
+}
+
+.submit-button {
+    width: 100%;
+}
+
+.comment-button {
+    width: 100%;
+}
+
+.find-button {
+    padding: 15px 20px 15px 20px;
+}
+
+.read-more {
+    padding: 15px 20px 15px 20px;
 }
 
 .email-address {
     font-weight: 700;
     padding: 0px 0px 10px 0px;
-}
-
-button {
-    width: 100%;
 }
