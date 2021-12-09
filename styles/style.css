@@ -103,6 +103,11 @@ button:hover {
   background-color: #ebb456;
 }
 
+.photos-about h3:hover,
+.blog-contact h3:hover {
+  color: #ebb456;
+}
+
 /* form styles */
 .form-tab {
   margin: 75px 0px 0px 35px;
@@ -190,6 +195,17 @@ button {
   display: flex;
 }
 
+.home-container h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  left: 315px;
+}
+
 .author-photo {
   -webkit-box-shadow: 20px 20px white;
           box-shadow: 20px 20px white;
@@ -201,6 +217,9 @@ button {
 
 .circle-text {
   position: absolute;
+  bottom: 500px;
+  left: 600px;
+  scale: 0.6;
 }
 
 .who-splash {
@@ -310,6 +329,10 @@ button {
   max-height: 600px;
 }
 
+.gallery {
+  background-color: white;
+}
+
 .gallery ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -346,6 +369,24 @@ button {
   display: block;
   width: 50%;
   padding: 20px;
+}
+
+.photos-about i,
+.blog-contact i {
+  background-color: #E4A436;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  scale: 0.8;
+  padding: 5px;
+}
+
+.photos-h3,
+.about-h3,
+.blog-h3,
+.contact-h3 {
+  margin: 0 auto;
 }
 
 .all-about {

@@ -7,6 +7,13 @@
     display: flex;
 }
 
+.home-container h1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 315px;
+}
+
 .author-photo {
     box-shadow: 20px 20px white;
     width: 40%;
@@ -17,6 +24,9 @@
 
 .circle-text {
     position: absolute;
+    bottom: 500px;
+    left: 600px;
+    scale: 0.6;
 }
 
 // about section
@@ -118,6 +128,10 @@
 }
 
 // gallery 
+.gallery {
+    background-color: white;
+}
+
 .gallery ul {
     display: flex;
     flex-wrap:wrap;
@@ -150,9 +164,20 @@
     padding: 20px;
 }
 
-//     display: block;
-// }
+.photos-about i,
+.blog-contact i {
+    background-color: #E4A436;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    scale: 0.8;
+    padding: 5px;
+}
 
-//  {
-//     display: block;
-// }
+.photos-h3,
+.about-h3,
+.blog-h3,
+.contact-h3 {
+    margin: 0 auto;
+}
