@@ -1,5 +1,5 @@
 .home-splash {
-    height: 75vh;
+    height: 750px;
     background-color: #345231;
 }
 
@@ -11,22 +11,23 @@
     display: flex;
     align-items: center;
     position: relative;
-    left: 315px;
+    left: 222px;
 }
 
 .author-photo {
     box-shadow: 20px 20px white;
     width: 40%;
     position: relative;
-    left: 340px;
+    left: 235px;
     top: 125px;
 }
 
 .circle-text {
-    position: absolute;
-    bottom: 500px;
-    left: 600px;
-    scale: 0.6;
+    position: relative;
+    width: 6%;
+    height: 6%;
+    left: 260px;
+    top: 275px;
 }
 
 // about section
@@ -49,28 +50,32 @@
     display: flex;
 }
 
+.personal-wrapper {
+    width: 100%;
+}
+
 .personal-splash {
-    max-height: 100vh;
     background-color: white;
 }
 
 .left-image {
-    max-height: 400px;
+    background-color: #446b40;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
     position: relative;
-    box-shadow: -25px 20px #446b40;
-    bottom: 50px;
-    right: 50px;
-    width: 100%;
+    bottom: 25px;
 }
 
 .left-image img {
-    max-height: 400px;
+    position: relative;
+    bottom: 25px;
+    right: 25px;
 }
 
 .favourite-things {
-    align-items: center;
-    margin: 0 auto;
-    padding: 45px 0px 25px 25px;
+    padding: 75px 75px 50px 75px;
+    width: 600px;
 }
 
 .second-row {
@@ -78,22 +83,38 @@
 }
 
 .bucket-list {
+    display: flex;
+    flex-direction: column;
     text-align: right;
-    padding: 45px 25px 25px 0px;
+    padding: 25px 75px 50px 75px;
+    width: 50%;
 }
 
+.bucket-list p {
+    width: 70%;
+}
+
+.bucket-list p,
+.bucket-list button {
+    align-self: flex-end;
+}   
+
 .right-image {
-    margin: 0 auto;
-    max-height: 400px;
+    background-color: #1d361a;
+    width: 50%;
     position: relative;
-    box-shadow: 25px 25px #273d24;
-    top: 25px;
-    left: 50px;
+    top: 50px;
+}
+
+.right-image img {
+    position: relative;
+    right: 25px;
+    bottom: 25px;
 }
 
 // journey
 .my-journey {
-    max-height: 600px;
+    // height: 600px;
     padding: 65px 35px 35px 35px;
 }
 
@@ -124,7 +145,6 @@
 // flower field
 .image-break {
     width: 100%;
-    max-height: 600px
 }
 
 // gallery 

@@ -1,0 +1,134 @@
+@media (max-width: 700px) {
+    nav {
+        background-color: #345231;
+    }
+
+    nav h2 {
+        align-items: left;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    // CONTACT PAGE MEDIA QUERY
+    .contact-title h1 {
+        font-size: 70px;
+    }
+
+    i.fa-angle-down {
+        display: flex;
+        text-align: right;
+        font-size: 25px;
+        color: white;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .contact-me {
+        background-image: url(../assets/contact-image-1.jpg) center;
+        background-size: cover;
+        padding: 0; 
+    }
+
+    // BLOG POST MEDIA
+    .all-about {
+        display: none;
+    }
+
+    .blog-content {
+        width: 100%;
+    }
+
+    // HOME PAGE MEDIA
+    .home-splash {
+        height: 600px;
+    }
+
+    .home-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .author-photo {
+        margin-top: 50px;
+        width: 50%;
+        left: 0;
+        top: 0;
+    }
+
+    // HOME QUADRANTS SECTION
+    .first-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-image {
+        width: 100%;
+    }
+
+    .left-image img,
+    .right-image img {
+        width: 100%;
+    }
+
+    .favourite-things {
+        width: 80%;
+        text-align: center;
+        padding: 75px 75px 75px 75px;
+    }
+
+    .second-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .right-image {
+        width: 100%;
+        right: 0;
+        bottom: 0;
+    }
+
+    .bucket-list {
+        width: 90%;
+        text-align: center;
+        padding: 75px 35px 75px 35px;
+    }
+
+    .bucket-list button {
+        align-self: center;
+    }
+
+    // WILLOW'S JOURNEY
+    .my-journey {
+        padding: 65px 35px 35px 35px;
+    }
+
+    .portrait-wrapper img {
+        align-self: center;
+        width: 100%;
+    }
+
+    .journey-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .journey-content {
+        padding-top: 25px;
+        margin-left: 0px;
+    }
+
+    .image-break {
+        width: 100%;
+    }
+
+    .gallery li {
+        width: calc(90% / 3 - 10px);
+        margin: 0;
+        scale: 0.45;
+    }
+}

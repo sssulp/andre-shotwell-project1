@@ -1,0 +1,48 @@
+@media (max-width: 1000px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .circle-text {
+        display: none;
+    }
+
+    .home-container h1 {
+        display: none;
+    }
+
+    .left-image {
+        background: white;
+        bottom: 0px;
+        width: 50%;
+    }
+
+    .left-image img,
+    .right-image img {
+        bottom: 0;
+        right: 0;
+    }
+
+    .right-image {
+        background: white;
+        width: 50%;
+        top: 0;
+    }
+
+    .bucket-list {
+        display: flex;
+        text-align: right;
+        width: 100%;
+        padding: 50px 45px 30px 10px;
+    }
+
+    .bucket-list p {
+        width: 100%;
+    }
+
+    .gallery li {
+        width: calc(90% / 3 - 10px);
+        margin: 0;
+        scale: 0.65;
+    }
+}

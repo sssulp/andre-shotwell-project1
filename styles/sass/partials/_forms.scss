@@ -4,11 +4,6 @@
     width: 100%;
 }
 
-fieldset {
-    height: 40vh;
-    border: 0;
-}
-
 .user-input {
     display: flex;
     justify-content: space-between;
@@ -23,10 +18,10 @@ input[type=email] {
 }
 
 textarea {
+    width: 100%;
     border: none;
     margin-top: 20px;
     resize:none;
-    padding: 25px 0px 5px 25px;
     font-size: 18px;
     font-family: 'montserrat'
 }
@@ -50,12 +45,10 @@ button {
     cursor: pointer;
 }
 
-.submit-button {
-    width: 100%;
-}
-
+.submit-button,
 .comment-button {
     width: 100%;
+    padding: 15px 0 15px 0;
 }
 
 .find-button {

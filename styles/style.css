@@ -50,6 +50,10 @@ nav ul {
   padding: 15px;
 }
 
+i.fa-angle-down {
+  display: none;
+}
+
 h1 {
   font-size: 80px;
   letter-spacing: 1px;
@@ -108,15 +112,17 @@ button:hover {
   color: #ebb456;
 }
 
+.socials-tab a:hover,
+i.fa-angle-down:hover {
+  color: #E4A436;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
 /* form styles */
 .form-tab {
   margin: 75px 0px 0px 35px;
   width: 100%;
-}
-
-fieldset {
-  height: 40vh;
-  border: 0;
 }
 
 .user-input {
@@ -137,10 +143,10 @@ input[type=email] {
 }
 
 textarea {
+  width: 100%;
   border: none;
   margin-top: 20px;
   resize: none;
-  padding: 25px 0px 5px 25px;
   font-size: 18px;
   font-family: "montserrat";
 }
@@ -163,12 +169,10 @@ button {
   cursor: pointer;
 }
 
-.submit-button {
-  width: 100%;
-}
-
+.submit-button,
 .comment-button {
   width: 100%;
+  padding: 15px 0 15px 0;
 }
 
 .find-button {
@@ -185,7 +189,7 @@ button {
 }
 
 .home-splash {
-  height: 75vh;
+  height: 750px;
   background-color: #345231;
 }
 
@@ -203,7 +207,7 @@ button {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  left: 315px;
+  left: 222px;
 }
 
 .author-photo {
@@ -211,15 +215,16 @@ button {
           box-shadow: 20px 20px white;
   width: 40%;
   position: relative;
-  left: 340px;
+  left: 235px;
   top: 125px;
 }
 
 .circle-text {
-  position: absolute;
-  bottom: 500px;
-  left: 600px;
-  scale: 0.6;
+  position: relative;
+  width: 6%;
+  height: 6%;
+  left: 260px;
+  top: 275px;
 }
 
 .who-splash {
@@ -242,31 +247,36 @@ button {
   display: flex;
 }
 
+.personal-wrapper {
+  width: 100%;
+}
+
 .personal-splash {
-  max-height: 100vh;
   background-color: white;
 }
 
 .left-image {
-  max-height: 400px;
+  background-color: #446b40;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   position: relative;
-  -webkit-box-shadow: -25px 20px #446b40;
-          box-shadow: -25px 20px #446b40;
-  bottom: 50px;
-  right: 50px;
-  width: 100%;
+  bottom: 25px;
 }
 
 .left-image img {
-  max-height: 400px;
+  position: relative;
+  bottom: 25px;
+  right: 25px;
 }
 
 .favourite-things {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 auto;
-  padding: 45px 0px 25px 25px;
+  padding: 75px 75px 50px 75px;
+  width: 600px;
 }
 
 .second-row {
@@ -276,22 +286,42 @@ button {
 }
 
 .bucket-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: right;
-  padding: 45px 25px 25px 0px;
+  padding: 25px 75px 50px 75px;
+  width: 50%;
+}
+
+.bucket-list p {
+  width: 70%;
+}
+
+.bucket-list p,
+.bucket-list button {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .right-image {
-  margin: 0 auto;
-  max-height: 400px;
+  background-color: #1d361a;
+  width: 50%;
   position: relative;
-  -webkit-box-shadow: 25px 25px #273d24;
-          box-shadow: 25px 25px #273d24;
-  top: 25px;
-  left: 50px;
+  top: 50px;
+}
+
+.right-image img {
+  position: relative;
+  right: 25px;
+  bottom: 25px;
 }
 
 .my-journey {
-  max-height: 600px;
   padding: 65px 35px 35px 35px;
 }
 
@@ -326,7 +356,6 @@ button {
 
 .image-break {
   width: 100%;
-  max-height: 600px;
 }
 
 .gallery {
@@ -438,6 +467,27 @@ button {
   padding-left: 10px;
 }
 
+.blog-splash {
+  background-image: url(../assets/blog-image-1.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+.blog-title {
+  height: 100%;
+}
+
+.blog-title h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+  padding-top: 19px;
+}
+
 .main-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -498,6 +548,27 @@ form {
   width: 100%;
 }
 
+.contact-me {
+  background-image: url(../assets/contact-image-1.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+.contact-title {
+  height: 100%;
+}
+
+.contact-title h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+  padding-top: 19px;
+}
+
 /* socials tab */
 .all-tabs {
   display: -webkit-box;
@@ -506,8 +577,8 @@ form {
 }
 
 .socials-tab {
-  height: 250px;
-  width: 475px;
+  height: 30%;
+  width: 30%;
   background: white;
   padding: 35px 30px 35px 30px;
   margin-top: 75px;
@@ -538,44 +609,308 @@ form {
   padding: 0px 10px 0px 10px;
 }
 
-.contact-me {
-  background-image: url(../assets/contact-image-1.jpg);
-  background-size: cover;
-  height: 50vh;
-}
+@media (max-width: 1000px) {
+  .wrapper {
+    width: 90%;
+  }
 
-.contact-title {
-  height: 100%;
-}
+  .circle-text {
+    display: none;
+  }
 
-.contact-title h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  height: 100%;
-  padding-top: 19px;
-}
+  .home-container h1 {
+    display: none;
+  }
 
-.blog-splash {
-  background-image: url(../assets/blog-image-1.jpg);
-  background-size: cover;
-  height: 50vh;
-}
+  .left-image {
+    background: white;
+    bottom: 0px;
+    width: 50%;
+  }
 
-.blog-title {
-  height: 100%;
-}
+  .left-image img,
+.right-image img {
+    bottom: 0;
+    right: 0;
+  }
 
-.blog-title h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  height: 100%;
-  padding-top: 19px;
+  .right-image {
+    background: white;
+    width: 50%;
+    top: 0;
+  }
+
+  .bucket-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: right;
+    width: 100%;
+    padding: 50px 45px 30px 10px;
+  }
+
+  .bucket-list p {
+    width: 100%;
+  }
+
+  .gallery li {
+    width: calc(90% / 3 - 10px);
+    margin: 0;
+    scale: 0.65;
+  }
+}
+@media (max-width: 700px) {
+  nav {
+    background-color: #345231;
+  }
+
+  nav h2 {
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  .contact-title h1 {
+    font-size: 70px;
+  }
+
+  i.fa-angle-down {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: right;
+    font-size: 25px;
+    color: white;
+  }
+
+  .wrapper {
+    width: 90%;
+  }
+
+  .contact-me {
+    background-image: url(../assets/contact-image-1.jpg) center;
+    background-size: cover;
+    padding: 0;
+  }
+
+  .all-about {
+    display: none;
+  }
+
+  .blog-content {
+    width: 100%;
+  }
+
+  .home-splash {
+    height: 600px;
+  }
+
+  .home-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .author-photo {
+    margin-top: 50px;
+    width: 50%;
+    left: 0;
+    top: 0;
+  }
+
+  .first-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .left-image {
+    width: 100%;
+  }
+
+  .left-image img,
+.right-image img {
+    width: 100%;
+  }
+
+  .favourite-things {
+    width: 80%;
+    text-align: center;
+    padding: 75px 75px 75px 75px;
+  }
+
+  .second-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .right-image {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+  }
+
+  .bucket-list {
+    width: 90%;
+    text-align: center;
+    padding: 75px 35px 75px 35px;
+  }
+
+  .bucket-list button {
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+
+  .my-journey {
+    padding: 65px 35px 35px 35px;
+  }
+
+  .portrait-wrapper img {
+    -ms-flex-item-align: center;
+        align-self: center;
+    width: 100%;
+  }
+
+  .journey-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .journey-content {
+    padding-top: 25px;
+    margin-left: 0px;
+  }
+
+  .image-break {
+    width: 100%;
+  }
+
+  .gallery li {
+    width: calc(90% / 3 - 10px);
+    margin: 0;
+    scale: 0.45;
+  }
+}
+@media (max-width: 550px) {
+  .contact-title h1 {
+    font-size: 70px;
+  }
+
+  .all-tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .socials-tab {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .socials-tab ul {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    font-size: 30px;
+  }
+
+  .socials-tab p {
+    display: none;
+  }
+
+  .form-tab {
+    margin: 0 auto;
+  }
+
+  input[type=userName],
+input[type=email] {
+    border: none;
+    width: calc(100%/2 - 18px);
+    height: 45px;
+    padding: 5px 0px 5px 15px;
+  }
+
+  .author-photo {
+    width: 70%;
+  }
+
+  .who-splash {
+    padding-top: 25px;
+    height: 500px;
+  }
+
+  .favourite-things {
+    max-width: 550px;
+    width: 70%;
+  }
+
+  .second-row {
+    max-width: 550px;
+  }
+
+  .bucket-list {
+    padding: 25px;
+  }
+
+  .gallery {
+    display: none;
+  }
+
+  .photos-about,
+.blog-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .wrap-blog {
+    width: 100%;
+    padding: 0 auto;
+  }
+
+  .wrap-contact {
+    width: 100%;
+  }
+
+  .photos-about p,
+.blog-contact p {
+    display: none;
+  }
 }

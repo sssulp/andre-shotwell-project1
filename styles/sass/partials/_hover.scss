@@ -11,3 +11,9 @@ button:hover {
 .blog-contact h3:hover {
     color: #ebb456;
 }
+
+.socials-tab a:hover,
+i.fa-angle-down:hover {
+    color: #E4A436;
+    transition: 0.4s;
+}

@@ -6,41 +6,8 @@
 @import "partials/home.scss";
 @import "partials/blog-about";
 @import "partials/blog-content";
+@import "partials/contact";
 @import "partials/social-tab";
-
-
-// CONTACT ME HTML
-.contact-me {
-    background-image: url(../assets/contact-image-1.jpg);
-    background-size: cover;
-    height: 50vh;
-}
-
-.contact-title {
-    height: 100%;
-}
-
-.contact-title h1 {
-    display: flex;
-    align-items: flex-end;
-    height: 100%;
-    padding-top: 19px;
-}
-
-// BLOG POST HTML
-.blog-splash {
-    background-image: url(../assets/blog-image-1.jpg);
-    background-size: cover;
-    height: 50vh;
-}
-
-.blog-title {
-    height: 100%;
-}
-
-.blog-title h1 {
-    display: flex;
-    align-items: flex-end;
-    height: 100%;
-    padding-top: 19px;
-}
+@import "partials/mediaquery1000";
+@import "partials/mediaquery700";
+@import "partials/mediaquery550";

@@ -1,3 +1,21 @@
+// BLOG POST HTML
+.blog-splash {
+    background-image: url(../assets/blog-image-1.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.blog-title {
+    height: 100%;
+}
+
+.blog-title h1 {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    padding-top: 19px;
+}
+
 .main-content {
     display: flex;
 }
