@@ -1,14 +1,27 @@
-@media (max-width: 700px) {
-    nav {
+@media (max-width:700px) {
+    .nav-menu {
         background-color: #345231;
     }
 
-    nav h2 {
-        align-items: left;
+    nav.nav-menu a {
+        display: none;
     }
 
-    nav a {
-        display: none;
+    nav ul {
+        flex-direction: column;
+    }
+
+    .nav-menu li:nth-child(3) {
+        order: -2;
+    }
+
+    nav #nav-trigger {
+        order: -1;
+        margin: 0 auto;
+        background-color: #345231;
+        display: block;
+        padding-top: 5px;
+        cursor: pointer;
     }
 
     // CONTACT PAGE MEDIA QUERY
@@ -75,9 +88,9 @@
     }
 
     .favourite-things {
-        width: 80%;
+        max-width: 700px;
         text-align: center;
-        padding: 75px 75px 75px 75px;
+        padding: 35px 0px 35px 0px;
     }
 
     .second-row {
@@ -94,7 +107,6 @@
     .bucket-list {
         width: 90%;
         text-align: center;
-        padding: 75px 35px 75px 35px;
     }
 
     .bucket-list button {
